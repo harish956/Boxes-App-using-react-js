@@ -1,0 +1,74 @@
+/* Write your code here. */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.small-box {
+  background-color: #fbbf24;
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bree Serif";
+  margin-right: 5%;
+}
+.medium-box {
+  background-color: #38bdf8;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bree Serif";
+  margin-right: 5%;
+}
+.large-box {
+  background-color: #ec4899;
+  height: 270px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bree Serif";
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .small-box {
+    height: 70px;
+    width: 70px;
+  }
+  .medium-box {
+    height: 140px;
+    width: 140px;
+  }
+  .large-box {
+    height: 210px;
+    width: 210px;
+  }
+}
